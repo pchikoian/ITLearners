@@ -47,4 +47,10 @@ Execute:
 
     ruby main.rb
 
-If everything goes right, all xml files are stored in './data/xml'.
+If everything goes right, all xml files are stored in './data/xml/'.
+
+## Related Documents ##
+
+[Nokogiri API document](http://nokogiri.org/)
+
+[Train Schedule](http://163.29.3.98/XML/)
