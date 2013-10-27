@@ -7,7 +7,7 @@
 #   gem 'mysql2'
 development:
   adapter: mysql2
-  database: db/development
+  database: db/train_schedule_development
   pool: 5
   timeout: 5000
   username: root
@@ -18,7 +18,7 @@ development:
 # Do not set this db to the same as development or production.
 test:
   adapter: mysql2
-  database: db/test
+  database: db/train_schedule_test
   pool: 5
   timeout: 5000
   username: root
@@ -27,7 +27,7 @@ test:
 
 production:
   adapter: mysql2
-  database: db/production
+  database: db/train_schedule_production
   pool: 5
   timeout: 5000
   username: root
